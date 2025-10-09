@@ -1,0 +1,357 @@
+/* ==============================the all============================ */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    /* overflow: hidden; */
+}
+
+body{
+    /* background-color: rgb(20, 20, 20); */
+    background-color: rgb(18, 18, 18);
+    /* filter: brightness(50%); */
+
+    padding-bottom: 1000px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* =============================main================================ */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* =============================main hello================================ */
+main .hello {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 130px;
+    align-items: center;
+
+    background-image: url(imgsAndIcons/blackBattern2.webp);
+
+}
+
+main .hello .myIMG {
+    height: 500px;
+    width: 500px;
+    margin-right: 171px;
+    position: relative;
+}
+
+main .hello .myIMG .AbdelrahmanRashed {
+    border-radius: 50%;
+    height: 100%;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main .hello .textAndButtons {
+    margin-left: 145px;
+}
+
+main .hello .textAndButtons h1 {
+    font-size: 50px;
+    margin-bottom: 27px;
+    line-height: 72px;
+}
+
+main .hello .textAndButtons p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+main .hello .textAndButtons .theTwoButtons {
+    display: flex;
+}
+
+main .hello .textAndButtons .theTwoButtons button {
+    margin-right: 35px;
+    border: 0;
+    color: black;
+    background-color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main .hello .textAndButtons .theTwoButtons button:hover {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+
+    position: relative;
+    top: -4px;
+}
+/* ========================the floting circles========================== */
+
+.myIMG .Cjs {
+    position: absolute;
+    left: 82%;
+    top: 75%;
+    border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation: float 3s ease-in-out infinite;
+    background-color: white;
+}
+
+.myIMG .Chtml {
+    position: absolute;
+    left: 7%;
+    top: 75%;
+    border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation: float 3s ease-in-out infinite;
+    background-color: white;
+}
+
+.myIMG .Ccss {
+    position: absolute;
+    left: 33%;
+    top: 95%;
+    border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation: float 3s ease-in-out infinite;
+    background-color: white;
+}
+
+.myIMG .CPython {
+    position: absolute;
+    left: 61%;
+    top: 95%;
+    border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation: float 3s ease-in-out infinite;
+    background-color: white;
+}
+
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust for desired float height */
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* ===========================AboutMe============================ */
+main .AboutMe {
+    display: flex;
+    margin-top: 140px;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .AboutMe .Aheader{
+    margin-bottom: 20px;
+}
+
+main .AboutMe .Aheader h1{
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+    border-bottom: 6px solid #ffffff;
+    font-size: 36px;
+    display: inline-block;
+}
+
+main .AboutMe .Abody{
+    max-width: 660px;
+}
+
+/* ================================Projects============================ */
+main .Projects {
+    display: flex;
+    padding-top: 150px;
+    padding-left: 40px;
+    flex-direction: column;
+}
+
+main .Projects h2 {
+    font-weight: 800;
+    margin-bottom: 20px;
+    /* font-size: 36px; */
+    font-size: 40px;
+}
+
+main .Projects .THEProjects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+main .Projects .THEProjects .ProjectCard {
+    background-color: rgb(27, 27, 27);
+    border: 1px solid rgb(61 61 61);
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 55px;
+    width: 415px;
+    min-height: 88px;
+    position: relative;
+}
+
+main .Projects .THEProjects .ProjectCard:hover {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+
+    position: relative;
+    top: -4px;
+}
+
+main .Projects .THEProjects .ProjectCard p{
+    width: 100%;
+}
+
+main .Projects .THEProjects .ProjectCard h4 {
+    margin-bottom: 16px;
+}
+
+main .Projects .THEProjects .ProjectCard .langugesList {
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    max-width: 405px;
+}
+
+main .Projects .THEProjects .ProjectCard .langugesList .languge {
+    padding: 6px;
+    /* background-color: brown; */
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.html{
+    background-color: red;
+}
+
+.JS{
+    background-color: #f1e05a;
+}
+
+.css{
+    background-color: #000080;
+}
+
+.Python{
+    background-color: #3572A5;
+}
+
+main .Projects .THEProjects .ProjectCard .langugesList .languge p {
+    opacity: 60%;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    @media (max-width: 768px) {
+        main .hello {
+            display: flex;
+            flex-direction: column-reverse;
+            padding-top: 40px;
+            padding-bottom: 80px;
+            text-align: center;
+            width: 110%;
+        }
+
+        main .hello .textAndButtons {
+            margin-left: 0;
+            margin-bottom: 50px;
+            padding: 0 20px;
+        }
+
+        main .hello .textAndButtons h1 {
+            font-size: 32px;
+            line-height: 48px;
+        }
+
+        main .hello .textAndButtons p {
+            font-size: 18px;
+        }
+
+        main .hello .textAndButtons .theTwoButtons {
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        main .hello .textAndButtons .theTwoButtons button {
+            margin-right: 0;
+        }
+
+        main .hello .myIMG {
+            margin-right: 0;
+            height: 300px;
+            width: 300px;
+            margin-bottom: 66px;
+        }
+
+        .myIMG .Cjs,
+        .myIMG .Chtml,
+        .myIMG .Ccss,
+        .myIMG .CPython {
+            height: 35px;
+            border-width: 4px;
+        }
+
+        main .AboutMe {
+            margin-top: 80px;
+            padding: 0 20px;
+        }
+
+        main .AboutMe .Abody {
+            max-width: 100%;
+        }
+
+        main .Projects {
+            padding-top: 80px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        main .Projects .THEProjects {
+            justify-content: center;
+        }
+
+        main .Projects .THEProjects .ProjectCard {
+            width: 100%;
+            max-width: 400px;
+        }
+    }
+
+
+}
