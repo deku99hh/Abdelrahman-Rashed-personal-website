@@ -343,104 +343,6 @@ main .langugeIUse .langugeIUseBlock .cardColection .langugeCard p{
 
 
 
-/* 
-@media (max-width: 768px) {
-    @media (max-width: 768px) {
-        main .hello {
-            display: flex;
-            flex-direction: column-reverse;
-            padding-top: 40px;
-            padding-bottom: 80px;
-            text-align: center;
-            width: 110%;
-        }
-
-        main .hello .textAndButtons {
-            margin-left: 0;
-            margin-bottom: 50px;
-            padding: 0 20px;
-        }
-
-        main .hello .textAndButtons h1 {
-            font-size: 32px;
-            line-height: 48px;
-        }
-
-        main .hello .textAndButtons p {
-            font-size: 18px;
-        }
-
-        main .hello .textAndButtons .theTwoButtons {
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-
-        main .hello .textAndButtons .theTwoButtons button {
-            margin-right: 0;
-        }
-
-        main .hello .myIMG {
-            margin-right: 0;
-            height: 300px;
-            width: 300px;
-            margin-bottom: 66px;
-        }
-
-        .myIMG .Cjs,
-        .myIMG .Chtml,
-        .myIMG .Ccss,
-        .myIMG .CPython {
-            height: 35px;
-            border-width: 4px;
-        }
-
-        main .AboutMe {
-            margin-top: 80px;
-            padding: 0 20px;
-        }
-
-        main .AboutMe .Abody {
-            max-width: 100%;
-        }
-
-        main .Projects {
-            padding-top: 80px;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-
-        main .Projects .THEProjects {
-            justify-content: center;
-        }
-
-        main .Projects .THEProjects .ProjectCard {
-            width: 100%;
-            max-width: 400px;
-        }
-    }
-
-
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 768px) {
     main .hello {
@@ -580,7 +482,6 @@ main .langugeIUse .langugeIUseBlock .cardColection .langugeCard p{
     }
     
     main .hello .textAndButtons .theTwoButtons {
-        /* flex-direction: column; */
         align-items: center;
     }
     
