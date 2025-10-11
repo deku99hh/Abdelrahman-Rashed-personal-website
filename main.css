@@ -12,7 +12,7 @@ body {
     /* background-color: rgb(20, 20, 20); */
     background-color: #0b0c0f;
     /* filter: brightness(50%); */
-    padding-bottom: 1000px;
+    /* padding-bottom: 100px; */
 }
 
 a{
@@ -322,8 +322,20 @@ main .langugeIUse .langugeIUseBlock .cardColection .langugeCard p{
     font-size: 17px;
 }
 
+/* ======================================================================================= */
+/* =====================================footer============================================ */
+/* ======================================================================================= */
+footer {
+    padding-top: 1px;
+    padding-bottom: 142px;
+    margin-top: 100px;
+    background-color: black;
+    height: 600px;
+}
+
+
 /* ==================================Contact Me======================================== */
-main .width100 {
+footer .width100 {
     margin-top: 200px;
 
     width: 100%;
@@ -331,28 +343,28 @@ main .width100 {
     justify-content: center;
 }
 
-main .width100 .ContactMe {
+footer .width100 .ContactMe {
     display: flex;
     flex-direction: column;
     width: 50vw;
 }
 
-main .width100 .ContactMe h2 {
+footer .width100 .ContactMe h2 {
     font-size: 27px;
     margin-bottom: 20px;
 }
 
-main .width100 .ContactMe .textBlock {
+footer .width100 .ContactMe .textBlock {
     margin-bottom: 35px;
 }
 
-main .width100 .ContactMe .textBlock p {
+footer .width100 .ContactMe .textBlock p {
     font-size: 13px;
     margin-bottom: 5px;
     color: #cbcbdb;
 }
 
-main .width100 .ContactMe .textBlock input, main .width100 .ContactMe .textBlock textarea {
+footer .width100 .ContactMe .textBlock input, footer .width100 .ContactMe .textBlock textarea {
     padding-left: 10px;
     background-color: #18181b;
     color: #9696a1;
@@ -360,7 +372,7 @@ main .width100 .ContactMe .textBlock input, main .width100 .ContactMe .textBlock
     width: 100%;
 }
 
-main .width100 .ContactMe .textBlock input{
+footer .width100 .ContactMe .textBlock input{
     height: 36px;
 }
 
@@ -370,7 +382,7 @@ textarea {
     padding-top: 10px;
   }
 
-main .width100 .ContactMe .SendMessage {
+footer .width100 .ContactMe .SendMessage {
     color: black;
     font-weight: 600;
     width: 145px;
@@ -378,7 +390,18 @@ main .width100 .ContactMe .SendMessage {
     font-size: 15px;
 }
 
+/* ======================================================================================= */
+/* ======================================icons============================================ */
+/* ======================================================================================= */
+footer .lastIcons{
+    margin-top: 80px;
+    text-align: center;
+}
 
+footer .lastIcons img{
+    filter: brightness(0) invert(1);
+    margin-left: 15px;
+}
 
 
 
@@ -394,7 +417,7 @@ main .width100 .ContactMe .SendMessage {
 @media (max-width: 768px) {
     main .hello {
         flex-direction: column-reverse;
-        padding: 40px 20px;
+        padding: 60px 20px;
         text-align: center;
         gap: 40px;
         padding-bottom: 165px;
@@ -521,6 +544,20 @@ main .width100 .ContactMe .SendMessage {
     main .langugeIUse .langugeIUseBlock .cardColection .langugeCard img {
         height: 35px;
     }
+
+
+
+
+    footer {
+        padding: 40px 20px;
+        height: auto;
+        margin-top: 80px;
+        width: 100%;
+    }
+
+    footer .width100 {
+        margin-top: 10px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -547,7 +584,80 @@ main .width100 .ContactMe .SendMessage {
     .myIMG .CPython {
         height: 30px;
     }
+
+
+
+
+    footer {
+        padding: 30px 15px;
+        margin-top: 60px;
+    }
+
+    footer .width100 .ContactMe h2 {
+        font-size: 22px;
+    }
+
+    footer .lastIcons {
+        gap: 15px;
+    }
+
+    footer .lastIcons img {
+        width: 24px;
+        height: 24px;
+    }
+
 }
+@media (max-width: 768px) {
+    footer {
+        padding: 40px 20px;
+        height: auto;
+        margin-top: 80px;
+    }
 
+    footer .width100 {
+        margin-top: 60px;
+    }
 
+    footer .width100 .ContactMe {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    footer .width100 .ContactMe h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    footer .width100 .ContactMe .textBlock {
+        margin-bottom: 25px;
+    }
+
+    footer .width100 .ContactMe .textBlock input,
+    footer .width100 .ContactMe .textBlock textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    footer .width100 .ContactMe .SendMessage {
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    footer .lastIcons {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    footer .lastIcons img {
+        margin-left: 0;
+        width: 28px;
+        height: 28px;
+    }
+}
 
