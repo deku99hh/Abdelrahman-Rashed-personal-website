@@ -322,14 +322,61 @@ main .langugeIUse .langugeIUseBlock .cardColection .langugeCard p{
     font-size: 17px;
 }
 
+/* ==================================Contact Me======================================== */
+main .width100 {
+    margin-top: 200px;
 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
+main .width100 .ContactMe {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
 
+main .width100 .ContactMe h2 {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
 
+main .width100 .ContactMe .textBlock {
+    margin-bottom: 35px;
+}
 
+main .width100 .ContactMe .textBlock p {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #cbcbdb;
+}
 
+main .width100 .ContactMe .textBlock input, main .width100 .ContactMe .textBlock textarea {
+    padding-left: 10px;
+    background-color: #18181b;
+    color: #9696a1;
+    border: 0;
+    width: 100%;
+}
 
+main .width100 .ContactMe .textBlock input{
+    height: 36px;
+}
 
+textarea {
+    height: 100px; 
+    resize: vertical; 
+    padding-top: 10px;
+  }
+
+main .width100 .ContactMe .SendMessage {
+    color: black;
+    font-weight: 600;
+    width: 145px;
+    height: 42px;
+    font-size: 15px;
+}
 
 
 
