@@ -8,11 +8,10 @@
     /* overflow: hidden; */
 }
 
-body{
+body {
     /* background-color: rgb(20, 20, 20); */
-    background-color: rgb(18, 18, 18);
+    background-color: #0b0c0f;
     /* filter: brightness(50%); */
-
     padding-bottom: 1000px;
 }
 
@@ -203,8 +202,8 @@ main .Projects .THEProjects {
 }
 
 main .Projects .THEProjects .ProjectCard {
-    background-color: rgb(27, 27, 27);
-    border: 1px solid rgb(61 61 61);
+    background-color: #131519;
+    border: 1px solid rgb(57 63 76);
     border-radius: 5px;
     padding: 20px;
     padding-bottom: 55px;
@@ -264,6 +263,64 @@ main .Projects .THEProjects .ProjectCard .langugesList .languge p {
     color: black;
 }
 
+/* ============================================================================================================ */
+/* ===================================================langugeIUse============================================== */
+/* ============================================================================================================ */
+
+main .langugeIUse {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 40px;
+    flex-direction: column;
+}
+
+main .langugeIUse h2 {
+    /* font-weight: 800; */
+    margin-bottom: 20px;
+    /* font-size: 36px; */
+    font-size: 40px;
+    margin-left: 4vw;
+}
+
+main .langugeIUse .langugeIUseBlock {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+main .langugeIUse .langugeIUseBlock .catigory {
+    /* font-weight: 800; */
+    margin-bottom: 20px;
+    /* font-size: 36px; */
+    font-size: 30px;
+    margin-left: 4vw;
+}
+
+main .langugeIUse .langugeIUseBlock .cardColection {
+    display: flex;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+main .langugeIUse .langugeIUseBlock .cardColection .langugeCard {
+    display: flex;
+    padding: 27px 27px;
+    background-color: #131519;
+    border-radius: 15px;
+    border: 1px solid #393f4c;
+    margin-right: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .langugeIUse .langugeIUseBlock .cardColection .langugeCard img{
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+main .langugeIUse .langugeIUseBlock .cardColection .langugeCard p{
+    font-size: 17px;
+}
 
 
 
@@ -277,6 +334,16 @@ main .Projects .THEProjects .ProjectCard .langugesList .languge p {
 
 
 
+
+
+
+
+
+
+
+
+
+/* 
 @media (max-width: 768px) {
     @media (max-width: 768px) {
         main .hello {
@@ -354,4 +421,181 @@ main .Projects .THEProjects .ProjectCard .langugesList .languge p {
     }
 
 
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    main .hello {
+        flex-direction: column-reverse;
+        padding: 40px 20px;
+        text-align: center;
+        gap: 40px;
+        padding-bottom: 165px;
+    }
+
+    main .hello .textAndButtons {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    main .hello .textAndButtons h1 {
+        font-size: 32px;
+        line-height: 1.3;
+        margin-bottom: 20px;
+    }
+
+    main .hello .textAndButtons p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    main .hello .textAndButtons .theTwoButtons {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    main .hello .textAndButtons .theTwoButtons button {
+        margin-right: 0;
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    main .hello .myIMG {
+        margin-right: 0;
+        height: 280px;
+        width: 280px;
+    }
+
+    .Abody p {
+        text-align: center;
+    }
+
+    .myIMG .Cjs,
+    .myIMG .Chtml,
+    .myIMG .Ccss,
+    .myIMG .CPython {
+        height: 35px;
+        border-width: 4px;
+    }
+
+    .myIMG .Cjs {
+        left: 84%;
+        top: 70%;
+    }
+
+    .myIMG .Chtml {
+        left: 2%;
+        top: 69%;
+    }
+
+    .myIMG .Ccss {
+        left: 25%;
+        top: 90%;
+    }
+
+    .myIMG .CPython {
+        left: 56%;
+        top: 92%;
+    }
+
+    main .AboutMe {
+        margin-top: 80px;
+        padding: 0 20px;
+    }
+
+    main .AboutMe .Abody {
+        max-width: 100%;
+        text-align: left;
+        padding: 0 10px;
+    }
+
+    main .Projects {
+        padding: 80px 20px 0;
+    }
+
+    main .Projects .THEProjects {
+        justify-content: center;
+    }
+
+    main .Projects .THEProjects .ProjectCard {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    main .langugeIUse {
+        padding: 50px 20px 0;
+    }
+
+    main .langugeIUse h2,
+    main .langugeIUse .langugeIUseBlock .catigory {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    main .langugeIUse .langugeIUseBlock .cardColection {
+        margin-left: 0;
+        margin-right: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    main .langugeIUse .langugeIUseBlock .cardColection .langugeCard {
+        margin-right: 0;
+        padding: 20px;
+        min-width: 120px;
+    }
+
+    main .langugeIUse .langugeIUseBlock .cardColection .langugeCard img {
+        height: 35px;
+    }
 }
+
+@media (max-width: 480px) {
+    main .hello .textAndButtons h1 {
+        font-size: 28px;
+    }
+    
+    main .hello .textAndButtons p {
+        font-size: 16px;
+    }
+    
+    main .hello .textAndButtons .theTwoButtons {
+        /* flex-direction: column; */
+        align-items: center;
+    }
+    
+    main .hello .myIMG {
+        height: 240px;
+        width: 240px;
+    }
+    
+    .myIMG .Cjs,
+    .myIMG .Chtml,
+    .myIMG .Ccss,
+    .myIMG .CPython {
+        height: 30px;
+    }
+}
+
+
+
