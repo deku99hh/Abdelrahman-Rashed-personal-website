@@ -444,13 +444,17 @@ main .langugeIUse .langugeIUseBlock .cardColection .langugeCard p{
     }
 
     main .langugeIUse {
-        padding: 50px 20px 0;
+
     }
 
-    main .langugeIUse h2,
+    main .langugeIUse h2 {
+        margin-left: 0;
+        /* text-align: center; */
+    }
+
     main .langugeIUse .langugeIUseBlock .catigory {
         margin-left: 0;
-        text-align: center;
+        /* text-align: center; */
     }
 
     main .langugeIUse .langugeIUseBlock .cardColection {
@@ -464,7 +468,7 @@ main .langugeIUse .langugeIUseBlock .cardColection .langugeCard p{
     main .langugeIUse .langugeIUseBlock .cardColection .langugeCard {
         margin-right: 0;
         padding: 20px;
-        min-width: 120px;
+        /* min-width: 120px; */
     }
 
     main .langugeIUse .langugeIUseBlock .cardColection .langugeCard img {
