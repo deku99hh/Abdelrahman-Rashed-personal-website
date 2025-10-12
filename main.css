@@ -418,6 +418,42 @@ footer .lastIcons img{
 }
 
 
+/* ======================================================================================= */
+/* ======================================easterEgg======================================== */
+/* ======================================================================================= */
+.easterEgg1 {
+    position: fixed;
+    height: 300px;
+    z-index: 999;
+    bottom: -310px;
+    right: -53vw;
+}
+
+.easterEgg1ACTIVE{
+    animation: easterEgg1 4s linear;
+}
+
+@keyframes easterEgg1{
+
+    0%{
+        bottom: -310px;
+        right: -53vw;
+    }
+
+    50%{
+        bottom: 26vw;
+        right: 33vw;
+    }
+
+    100%{
+        bottom: -21vw;
+        right: 100vw;
+    }
+
+}
+
+
+
 
 
 
@@ -619,6 +655,40 @@ footer .lastIcons img{
         width: 24px;
         height: 24px;
     }
+
+
+
+    .easterEgg1 {
+        position: fixed;
+        height: 150px;
+        z-index: 999;
+        bottom: -75px;
+        right: -73vw;
+    }
+
+    .easterEgg1ACTIVE{
+        animation: easterEgg1 4s linear;
+    }
+
+    @keyframes easterEgg1{
+
+        0%{
+            bottom: -75px;
+            right: -73vw;
+        }
+
+        50%{
+            bottom: 157vw;
+            right: 16vw;
+        }
+
+        100%{
+            bottom: -75px;
+            right: 116vw;
+        }
+
+    }
+
 
 }
 @media (max-width: 768px) {

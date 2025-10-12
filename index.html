@@ -10,9 +10,10 @@
 </head>
 <body>
 
-    <header>
 
-    </header>
+        <img src="imgsAndIcons/us101.png" class="easterEgg1">
+
+
     
     <main>
 
@@ -315,6 +316,37 @@
 
     </footer>
 
+    <script>
 
+
+        // لسا مش فاهمه بالظبط
+        // .....
+        
+        let clickCount = 0;
+        const image = document.querySelector('.myIMG');
+        const maxClicks = 5;
+
+        image.addEventListener('click', function() {
+            clickCount++;
+            
+            if (clickCount >= maxClicks) {
+                document.querySelector('.easterEgg1').classList.add('easterEgg1ACTIVE');
+                
+                setTimeout(() => {
+                    document.querySelector('.easterEgg1').classList.remove('easterEgg1ACTIVE');
+                    clickCount = 0;
+                }, 5000);
+            }
+        });
+
+        setInterval(() => {
+            if (clickCount > 0 && clickCount < maxClicks) {
+                clickCount = 0;
+            }
+        }, 3000);
+
+        // .....
+
+    </script>
 </body>
 </html>
