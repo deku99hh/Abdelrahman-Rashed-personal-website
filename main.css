@@ -414,8 +414,10 @@ footer .lastIcons img{
     position: fixed;
     height: 300px;
     z-index: 999;
-    bottom: -310px;
+    bottom: -340px;
     right: -53vw;
+
+    border-radius: 20px;
 }
 
 .easterEgg1ACTIVE{
@@ -425,7 +427,7 @@ footer .lastIcons img{
 @keyframes easterEgg1{
 
     0%{
-        bottom: -310px;
+        bottom: -340px;
         right: -53vw;
     }
 
