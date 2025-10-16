@@ -39,13 +39,17 @@ main .hello .myIMG {
     width: 500px;
     margin-right: 171px;
     position: relative;
+
+    /* filter:drop-shadow( 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19)); */
 }
 
 main .hello .myIMG .AbdelrahmanRashed {
     border-radius: 50%;
     height: 100%;
     border: 3px solid white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* filter:drop-shadow( 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19)); */
+
 }
 
 main .hello .textAndButtons {
@@ -86,6 +90,7 @@ main .hello .textAndButtons .theTwoButtons button:hover {
 
     position: relative;
     top: -4px;
+    transition: 0.1s;
 }
 /* ========================the floting circles========================== */
 
@@ -211,6 +216,7 @@ main .Projects .THEProjects .ProjectCard:hover {
 
     position: relative;
     top: -4px;
+    transition: 0.1s;
 }
 
 main .Projects .THEProjects .ProjectCard p{
